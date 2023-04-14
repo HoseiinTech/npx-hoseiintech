@@ -84,8 +84,6 @@ const data = {
     work: `${chalk.white(`${job_title}`)}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan(`${twitter_username}`),
     github: chalk.gray("https://github.com/") + chalk.green(`${github_username}`),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue(`${linkedin_username}`),
-    web: chalk.cyan(`${personal_site}`),
     npx: chalk.red("npx") + " " + chalk.white(`${npx_card_handle}`),
 
     labelWork: chalk.white.bold("       Work:"),
