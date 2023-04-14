@@ -71,7 +71,7 @@ const questions = [
             {
                 name: "Just quit.",
                 value: () => {
-                    console.log("Be happy :).\n");
+                    console.log("Be happy :)\n");
                 },
             },
         ],
