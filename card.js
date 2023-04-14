@@ -25,6 +25,7 @@ const {
     github_username,
     npx_card_handle,
     job_title,
+    skills,
     resume_url,
 } = user_data;
 
@@ -82,11 +83,13 @@ const data = {
     name: chalk.bold.green(`                  ${user_name}`),
     // work: `${chalk.white("Software Engineer at")} ${chalk.hex("#2b82b2").bold("ClearTax")}`,
     work: `${chalk.white(`${job_title}`)}`,
+    skills: `${chalk.white(`${skills}`)}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan(`${twitter_username}`),
     github: chalk.gray("https://github.com/") + chalk.green(`${github_username}`),
     npx: chalk.red("npx") + " " + chalk.white(`${npx_card_handle}`),
 
     labelWork: chalk.white.bold("       Work:"),
+    labelSkills: chalk.white.bold("       Skills:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelCard: chalk.white.bold("       Card:"),
@@ -97,6 +100,8 @@ const me = boxen(
         `${data.name}`,
         ``,
         `${data.labelWork}  ${data.work}`,
+        ``,
+        `${data.labelSkills}  ${data.skills}`,
         ``,
         `${data.labelTwitter}  ${data.twitter}`,
         `${data.labelGitHub}  ${data.github}`,
