@@ -22,9 +22,7 @@ const {
     user_name,
     user_email,
     twitter_username,
-    linkedin_username,
     github_username,
-    personal_site,
     npx_card_handle,
     job_title,
     resume_url,
@@ -73,7 +71,7 @@ const questions = [
             {
                 name: "Just quit.",
                 value: () => {
-                    console.log("Hasta la vista.\n");
+                    console.log("Be happy :).\n");
                 },
             },
         ],
@@ -93,8 +91,6 @@ const data = {
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
-    labelLinkedIn: chalk.white.bold("   LinkedIn:"),
-    labelWeb: chalk.white.bold("        Web:"),
     labelCard: chalk.white.bold("       Card:"),
 };
 
@@ -111,10 +107,9 @@ const me = boxen(
         ``,
         `${data.labelCard}  ${data.npx}`,
         ``,
-        `${chalk.italic("I am currently looking for new opportunities,")}`,
-        `${chalk.italic("my inbox is always open. Whether you have a")}`,
-        `${chalk.italic("question or just want to say hi, I will try ")}`,
-        `${chalk.italic("my best to get back to you!")}`,
+        `${chalk.italic("I am a teenager who loves the computer world")}`,
+        `${chalk.italic(" and software D: I am happy to work together")}`,
+        `${chalk.italic(" and gain experience. ")}`,
     ].join("\n"),
     {
         margin: 1,
