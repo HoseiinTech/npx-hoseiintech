@@ -89,7 +89,7 @@ const data = {
     npx: chalk.red("npx") + " " + chalk.white(`${npx_card_handle}`),
 
     labelWork: chalk.white.bold("       Work:"),
-    labelSkills: chalk.white.bold("       Skills:"),
+    labelSkills: chalk.white.bold("     Skills:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelCard: chalk.white.bold("       Card:"),
