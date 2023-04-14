@@ -1,13 +1,13 @@
 {
-    "name": "rahikhan",
-    "version": "2.2.2",
-    "author": "Rahi Khan <rahikhan360@gmail.com> (https://rahikhan.gtsb.io)",
-    "description": "A personal card for Rahi Khan",
+    "name": "hoseiintech",
+    "version": "1.0.0",
+    "author": "Mohammad Hossein Mahmoudian <mahmodian8713@gmail.com>",
+    "description": "My Business Card (M. Mahmoudian)",
     "main": "card.js",
     "bin": "./card.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/rahi-khan/npx_card.git"
+        "url": "https://github.com/HoseiinTech/npx-hoseiintech"
     },
     "scripts": {
         "setup": "ncu -u && npm i",
